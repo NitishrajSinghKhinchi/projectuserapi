@@ -1,0 +1,2 @@
+ http POST http://127.0.0.1:8000/gettoken/ email="nitishrajsinghkhichi822@gmail.com" password="Bhawar@98"
+http http://127.0.0.1:8000/api/ 'Authorization:baerer

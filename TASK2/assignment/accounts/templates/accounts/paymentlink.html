@@ -1,0 +1,6 @@
+{% autoescape off %}
+    Hi {{ user.name }}
+    Thank you for registering on our platform.
+    Click here to payment: http://{{ domain }}{% url 'paymentcomplete'  uidb64=uid token=token %}
+    Thanks for our site
+{% endautoescape %}
